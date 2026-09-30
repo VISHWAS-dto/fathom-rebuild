@@ -10,3 +10,5 @@ node_modules/
 data/audio/
 .DS_Store
 .vercel
+
+.claude/.capture-state/

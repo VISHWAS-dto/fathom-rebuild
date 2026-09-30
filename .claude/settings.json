@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [{ "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/capture.mjs\"" }] }
+    ],
+    "UserPromptSubmit": [
+      { "hooks": [{ "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/capture.mjs\"" }] }
+    ],
+    "Stop": [
+      { "hooks": [{ "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/capture.mjs\"" }] }
+    ]
+  }
+}
