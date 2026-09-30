@@ -1,0 +1,984 @@
+{
+  "id": "fz5U-yaFWQw",
+  "title": "Kubernetes SIG Release — 2026-06-10",
+  "youtubeId": "fz5U-yaFWQw",
+  "date": "2026-06-10",
+  "duration": 638,
+  "speakers": [
+    "Speaker 1",
+    "Speaker 2",
+    "Speaker 3",
+    "Speaker 4",
+    "Speaker 5",
+    "Speaker 6",
+    "Speaker 7"
+  ],
+  "segments": [
+    {
+      "start": 4.48,
+      "end": 5.2,
+      "speaker": "Speaker 1",
+      "text": "Okay."
+    },
+    {
+      "start": 5.68,
+      "end": 6.64,
+      "speaker": "Speaker 1",
+      "text": "Hello, everyone."
+    },
+    {
+      "start": 7.36,
+      "end": 12.72,
+      "speaker": "Speaker 1",
+      "text": "My name is, Rajat, and I'll be the host for this Kubernetes one dot server testing meeting."
+    },
+    {
+      "start": 13.14,
+      "end": 17.38,
+      "speaker": "Speaker 1",
+      "text": "Today is June 10, and we are in week four of the release cycle."
+    },
+    {
+      "start": 18.1,
+      "end": 25.78,
+      "speaker": "Speaker 1",
+      "text": "Please be aware that this is a Kubernetes community meeting, which falls under the Kubernetes code of conduct, which can be summarized to be excellent to each other."
+    },
+    {
+      "start": 26.51,
+      "end": 28.03,
+      "speaker": "Speaker 1",
+      "text": "K. Thank you all."
+    },
+    {
+      "start": 28.59,
+      "end": 35.55,
+      "speaker": "Speaker 1",
+      "text": "Also, this meeting is being recorded and will be publicly posted on YouTube. So please be mindful what you say is being recorded."
+    },
+    {
+      "start": 36.19,
+      "end": 36.91,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 38.19,
+      "end": 40.11,
+      "speaker": "Speaker 1",
+      "text": "That will start with the"
+    },
+    {
+      "start": 41.22,
+      "end": 42.42,
+      "speaker": "Speaker 1",
+      "text": "meeting updates."
+    },
+    {
+      "start": 42.9,
+      "end": 44.02,
+      "speaker": "Speaker 1",
+      "text": "Are there any"
+    },
+    {
+      "start": 44.34,
+      "end": 46.26,
+      "speaker": "Speaker 1",
+      "text": "items on the open discussions?"
+    },
+    {
+      "start": 51.7,
+      "end": 52.34,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 52.5,
+      "end": 57.71,
+      "speaker": "Speaker 1",
+      "text": "So there is nothing in the open discussion, at least in the meeting notes. Is there anything"
+    },
+    {
+      "start": 58.59,
+      "end": 62.19,
+      "speaker": "Speaker 1",
+      "text": "that needs to be discussed before we get into the team updates?"
+    },
+    {
+      "start": 68.11,
+      "end": 68.59,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 69.88,
+      "end": 74.12,
+      "speaker": "Speaker 1",
+      "text": "Moving on to the team updates. First up, we have enhancement team."
+    },
+    {
+      "start": 75.08,
+      "end": 76.04,
+      "speaker": "Speaker 1",
+      "text": "Shubasmita,"
+    },
+    {
+      "start": 76.04,
+      "end": 78.52,
+      "speaker": "Speaker 1",
+      "text": "can you share the updates for the announcement?"
+    },
+    {
+      "start": 78.92,
+      "end": 80.52,
+      "speaker": "Speaker 2",
+      "text": "Yeah. Hi, everyone."
+    },
+    {
+      "start": 81.4,
+      "end": 82.04,
+      "speaker": "Speaker 2",
+      "text": "So"
+    },
+    {
+      "start": 82.52,
+      "end": 85.32,
+      "speaker": "Speaker 2",
+      "text": "we are all done with the shadow onboarding"
+    },
+    {
+      "start": 85.85,
+      "end": 86.89,
+      "speaker": "Speaker 2",
+      "text": "meetings."
+    },
+    {
+      "start": 87.37,
+      "end": 91.05,
+      "speaker": "Speaker 2",
+      "text": "The PRR and enhancements freeze outreach was completed."
+    },
+    {
+      "start": 91.05,
+      "end": 94.89,
+      "speaker": "Speaker 2",
+      "text": "We still got a few caps last minute, so we have tracked it."
+    },
+    {
+      "start": 95.85,
+      "end": 99.91,
+      "speaker": "Speaker 2",
+      "text": "By now, the total number of caps that we are tracking is 98"
+    },
+    {
+      "start": 99.91,
+      "end": 104.06,
+      "speaker": "Speaker 2",
+      "text": "apart from the removed from milestone and deferred gaps."
+    },
+    {
+      "start": 104.39,
+      "end": 112.47,
+      "speaker": "Speaker 2",
+      "text": "And by which 50 caps are targeting alpha, 29 are targeting beta, and 18 are targeting stable and one as deprecation."
+    },
+    {
+      "start": 113.21,
+      "end": 117.45,
+      "speaker": "Speaker 2",
+      "text": "And since we are not tracking for PRR fees as a separate status"
+    },
+    {
+      "start": 117.61,
+      "end": 118.49,
+      "speaker": "Speaker 2",
+      "text": "criteria,"
+    },
+    {
+      "start": 119.13,
+      "end": 123.53,
+      "speaker": "Speaker 2",
+      "text": "we are directly tracking them for enhancements as well if they qualify"
+    },
+    {
+      "start": 123.53,
+      "end": 126.5,
+      "speaker": "Speaker 2",
+      "text": "for the PRR fees. So that means"
+    },
+    {
+      "start": 126.74,
+      "end": 133.38,
+      "speaker": "Speaker 2",
+      "text": "most of the PRR that were tracked are already tracked for enhancements fees also."
+    },
+    {
+      "start": 133.7,
+      "end": 140.82,
+      "speaker": "Speaker 2",
+      "text": "And 12 of them are at risk for the PRR fees. We are actively reviewing and communicating with the six to"
+    },
+    {
+      "start": 142.31,
+      "end": 145.35,
+      "speaker": "Speaker 2",
+      "text": "get in as many kits as we can for this release."
+    },
+    {
+      "start": 145.75,
+      "end": 152.31,
+      "speaker": "Speaker 2",
+      "text": "So, yeah, that's all that we have for now. Today is the PRR freeze deadline. So 05:30"
+    },
+    {
+      "start": 152.63,
+      "end": 154.79,
+      "speaker": "Speaker 2",
+      "text": "IST timing, we have the"
+    },
+    {
+      "start": 155.54,
+      "end": 156.43,
+      "speaker": "Speaker 2",
+      "text": "freeze"
+    },
+    {
+      "start": 157.54,
+      "end": 160.59,
+      "speaker": "Speaker 2",
+      "text": "coming into effect, and we'll also have a freeze party."
+    },
+    {
+      "start": 161.47,
+      "end": 163.95,
+      "speaker": "Speaker 2",
+      "text": "I already shared the link in the group,"
+    },
+    {
+      "start": 164.19,
+      "end": 165.23,
+      "speaker": "Speaker 2",
+      "text": "in the group"
+    },
+    {
+      "start": 165.23,
+      "end": 167.15,
+      "speaker": "Speaker 2",
+      "text": "and enhancements group. If anybody"
+    },
+    {
+      "start": 167.39,
+      "end": 170.58,
+      "speaker": "Speaker 2",
+      "text": "likes would like to join their free feel free to join it."
+    },
+    {
+      "start": 173.89,
+      "end": 176.53,
+      "speaker": "Speaker 2",
+      "text": "That's all for the updates from the enhancements team."
+    },
+    {
+      "start": 179.33,
+      "end": 182.45,
+      "speaker": "Speaker 1",
+      "text": "Okay. Thank you, Sushrita, for the update."
+    },
+    {
+      "start": 182.77,
+      "end": 185.73,
+      "speaker": "Speaker 1",
+      "text": "Any questions or comments for the enhancement team?"
+    },
+    {
+      "start": 191.07,
+      "end": 191.71,
+      "speaker": "Speaker 1",
+      "text": "Okay."
+    },
+    {
+      "start": 192.75,
+      "end": 196.67,
+      "speaker": "Speaker 1",
+      "text": "Next, we have release signal team. Aman, can you share the update?"
+    },
+    {
+      "start": 198.03,
+      "end": 204.56,
+      "speaker": "Speaker 3",
+      "text": "Release signal is green. Just one update from our side. The flake in the in the PR,"
+    },
+    {
+      "start": 205.92,
+      "end": 207.04,
+      "speaker": "Speaker 3",
+      "text": "mentioned in the,"
+    },
+    {
+      "start": 207.44,
+      "end": 208.24,
+      "speaker": "Speaker 3",
+      "text": "status,"
+    },
+    {
+      "start": 208.4,
+      "end": 209.84,
+      "speaker": "Speaker 3",
+      "text": "was blocking the,"
+    },
+    {
+      "start": 210.32,
+      "end": 212.24,
+      "speaker": "Speaker 3",
+      "text": "release that has been fixed."
+    },
+    {
+      "start": 212.56,
+      "end": 220.71,
+      "speaker": "Speaker 3",
+      "text": "So PR is merged. So the signal is back to green. We don't have any of these broker issues or PRs at the moment, and there are no"
+    },
+    {
+      "start": 220.95,
+      "end": 224.07,
+      "speaker": "Speaker 3",
+      "text": "critical or important suit items to headache."
+    },
+    {
+      "start": 224.47,
+      "end": 225.99,
+      "speaker": "Speaker 3",
+      "text": "That's all from the signal."
+    },
+    {
+      "start": 227.27,
+      "end": 227.91,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 228.63,
+      "end": 229.67,
+      "speaker": "Speaker 1",
+      "text": "Thank you, Aman."
+    },
+    {
+      "start": 230.07,
+      "end": 230.39,
+      "speaker": "Speaker 1",
+      "text": "Any"
+    },
+    {
+      "start": 231.42,
+      "end": 234.06,
+      "speaker": "Speaker 1",
+      "text": "comments or questions for the lead signal team?"
+    },
+    {
+      "start": 238.7,
+      "end": 249.29,
+      "speaker": "Speaker 1",
+      "text": "K. I think we have our alpha cut scheduled for later today, so I think having relay signal status as green is a good sign to go ahead. K."
+    },
+    {
+      "start": 249.77,
+      "end": 251.13,
+      "speaker": "Speaker 1",
+      "text": "Next, we have"
+    },
+    {
+      "start": 251.44,
+      "end": 253.13,
+      "speaker": "Speaker 1",
+      "text": "Docs team. Saurabh?"
+    },
+    {
+      "start": 253.85,
+      "end": 255.29,
+      "speaker": "Speaker 4",
+      "text": "Yeah. So"
+    },
+    {
+      "start": 255.77,
+      "end": 259.04,
+      "speaker": "Speaker 4",
+      "text": "the update from the Docs team, the current status is green."
+    },
+    {
+      "start": 259.9,
+      "end": 262.38,
+      "speaker": "Speaker 4",
+      "text": "The shadow onboarding has been completed,"
+    },
+    {
+      "start": 262.46,
+      "end": 267.98,
+      "speaker": "Speaker 4",
+      "text": "and all of the shadows has the access to the orgs and the required permissions."
+    },
+    {
+      "start": 268.7,
+      "end": 269.82,
+      "speaker": "Speaker 4",
+      "text": "Last week, weekly"
+    },
+    {
+      "start": 270.78,
+      "end": 285.36,
+      "speaker": "Speaker 4",
+      "text": "branching PR is also merged and coming of the important update. So the team is waiting for the alpha one release once that is out today. So we'll be preparing the release notes for that. And since the PRR freeze is going to be in motion today,"
+    },
+    {
+      "start": 285.52,
+      "end": 290.59,
+      "speaker": "Speaker 4",
+      "text": "after that, we'll be distributing the caps to the all of the shutters, all of the inbiting."
+    },
+    {
+      "start": 290.75,
+      "end": 298.51,
+      "speaker": "Speaker 4",
+      "text": "And based on that, we are going to reach out the cap for the placeholder PRs that will help us to get the pre PR for the placeholder accurately."
+    },
+    {
+      "start": 298.91,
+      "end": 302.51,
+      "speaker": "Speaker 4",
+      "text": "And there is one item which was identified before the"
+    },
+    {
+      "start": 302.91,
+      "end": 311.4,
+      "speaker": "Speaker 4",
+      "text": "weekly branching PR. So the sign off sign off issue is there, which is happening in the in the weekly branch. So whenever the"
+    },
+    {
+      "start": 312.19,
+      "end": 321.2,
+      "speaker": "Speaker 4",
+      "text": "different PRs in the websites are merged, although the CLA has been signed, but the once we are merging into the dev branch, we are getting the CLA pipelines."
+    },
+    {
+      "start": 322.16,
+      "end": 325.44,
+      "speaker": "Speaker 4",
+      "text": "Based on that, we have opened the issue, and I can see that has"
+    },
+    {
+      "start": 325.44,
+      "end": 330.32,
+      "speaker": "Speaker 4",
+      "text": "mentioned that he will look into that, but we are also following with the that issue. That's all from the."
+    },
+    {
+      "start": 333.34,
+      "end": 333.9,
+      "speaker": "Speaker 1",
+      "text": "Okay."
+    },
+    {
+      "start": 334.22,
+      "end": 335.66,
+      "speaker": "Speaker 1",
+      "text": "Thank you, Saurabh."
+    },
+    {
+      "start": 336.78,
+      "end": 338.78,
+      "speaker": "Speaker 1",
+      "text": "Any comments or questions for the?"
+    },
+    {
+      "start": 344.83,
+      "end": 345.47,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 346.03,
+      "end": 350.99,
+      "speaker": "Speaker 1",
+      "text": "So, Saurabh, I think you have you are getting the required attention right now, right, on that sign off issue?"
+    },
+    {
+      "start": 351.31,
+      "end": 354.35,
+      "speaker": "Speaker 1",
+      "text": "You have the folks Okay. Okay. Thank you."
+    },
+    {
+      "start": 354.83,
+      "end": 360.91,
+      "speaker": "Speaker 1",
+      "text": "Thank you, Thank next, we have comms team updates. Sofia, are you down the call?"
+    },
+    {
+      "start": 362.11,
+      "end": 366.11,
+      "speaker": "Speaker 5",
+      "text": "Looks like Sofia is not in the call, so I'll give the update."
+    },
+    {
+      "start": 366.35,
+      "end": 370.91,
+      "speaker": "Speaker 5",
+      "text": "So hello, everyone. The current status of the comms team is green."
+    },
+    {
+      "start": 371.15,
+      "end": 376.37,
+      "speaker": "Speaker 5",
+      "text": "All access related PRs, which is adding the shadows to release team.md,"
+    },
+    {
+      "start": 376.37,
+      "end": 377.65,
+      "speaker": "Speaker 5",
+      "text": "teams.yaml,"
+    },
+    {
+      "start": 377.73,
+      "end": 378.85,
+      "speaker": "Speaker 5",
+      "text": "and groups.yaml"
+    },
+    {
+      "start": 378.85,
+      "end": 379.97,
+      "speaker": "Speaker 5",
+      "text": "have been merged."
+    },
+    {
+      "start": 380.29,
+      "end": 383.73,
+      "speaker": "Speaker 5",
+      "text": "I have updated the comms opt in assignees and"
+    },
+    {
+      "start": 383.89,
+      "end": 391.34,
+      "speaker": "Speaker 5",
+      "text": "editors to include all comm shadows. So this will be helpful over the next few weeks when we'll be doing the reach outs,"
+    },
+    {
+      "start": 391.57,
+      "end": 394.78,
+      "speaker": "Speaker 5",
+      "text": "and this is basically after the enhancement freeze."
+    },
+    {
+      "start": 395.01,
+      "end": 396.94,
+      "speaker": "Speaker 5",
+      "text": "So the comm shadow orientation"
+    },
+    {
+      "start": 396.94,
+      "end": 399.41,
+      "speaker": "Speaker 5",
+      "text": "was conducted on June fourth and fifth."
+    },
+    {
+      "start": 400.15,
+      "end": 403.11,
+      "speaker": "Speaker 5",
+      "text": "And last week, I had brought up this"
+    },
+    {
+      "start": 403.59,
+      "end": 408.15,
+      "speaker": "Speaker 5",
+      "text": "blog and write up on c group v one being removed."
+    },
+    {
+      "start": 408.47,
+      "end": 420.43,
+      "speaker": "Speaker 5",
+      "text": "So I had a discussion with Sigdocs yesterday on that, and we'll be including this in the mid cycle blog, and we'll also be publishing an off cycle feature blog related to this."
+    },
+    {
+      "start": 420.99,
+      "end": 423.63,
+      "speaker": "Speaker 5",
+      "text": "So, yes, that's it from the com site. Thank you."
+    },
+    {
+      "start": 425.83,
+      "end": 427.11,
+      "speaker": "Speaker 1",
+      "text": "Thank you, Swati."
+    },
+    {
+      "start": 428.15,
+      "end": 429.27,
+      "speaker": "Speaker 1",
+      "text": "Are there any"
+    },
+    {
+      "start": 429.59,
+      "end": 432.39,
+      "speaker": "Speaker 1",
+      "text": "comments or questions for the comms team?"
+    },
+    {
+      "start": 436.47,
+      "end": 437.27,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 437.59,
+      "end": 440.39,
+      "speaker": "Speaker 1",
+      "text": "Moving on, we have, release branch management."
+    },
+    {
+      "start": 443.41,
+      "end": 444.44,
+      "speaker": "Speaker 1",
+      "text": "I do not see"
+    },
+    {
+      "start": 445.65,
+      "end": 447.09,
+      "speaker": "Speaker 6",
+      "text": "Hi. This is Ryota"
+    },
+    {
+      "start": 447.41,
+      "end": 448.85,
+      "speaker": "Speaker 6",
+      "text": "for branch management."
+    },
+    {
+      "start": 449.16,
+      "end": 454.28,
+      "speaker": "Speaker 6",
+      "text": "So we've got the signal green, and today is alpha cut. So we'll be starting with the cut"
+    },
+    {
+      "start": 454.62,
+      "end": 457.02,
+      "speaker": "Speaker 6",
+      "text": "soon enough. We might wait for"
+    },
+    {
+      "start": 457.26,
+      "end": 461.1,
+      "speaker": "Speaker 6",
+      "text": "the America's EMEA folks to be full fully ready."
+    },
+    {
+      "start": 461.42,
+      "end": 465.74,
+      "speaker": "Speaker 6",
+      "text": "So sometime later today, we are planning to have the AlphaCut today."
+    },
+    {
+      "start": 465.98,
+      "end": 467.18,
+      "speaker": "Speaker 6",
+      "text": "That's it. Thank you."
+    },
+    {
+      "start": 468.14,
+      "end": 469.02,
+      "speaker": "Speaker 1",
+      "text": "Thank you, Yota."
+    },
+    {
+      "start": 470.16,
+      "end": 472.72,
+      "speaker": "Speaker 1",
+      "text": "Any comments or questions for the release, Marwan?"
+    },
+    {
+      "start": 475.68,
+      "end": 476.56,
+      "speaker": "Speaker 1",
+      "text": "Not okay."
+    },
+    {
+      "start": 476.88,
+      "end": 484.4,
+      "speaker": "Speaker 1",
+      "text": "Next up, we have subproject list. So I don't see any updates here. Kat and Fredericope will probably join the USEM"
+    },
+    {
+      "start": 484.4,
+      "end": 484.72,
+      "speaker": "Speaker 1",
+      "text": "call."
+    },
+    {
+      "start": 485.62,
+      "end": 486.26,
+      "speaker": "Speaker 1",
+      "text": "Also,"
+    },
+    {
+      "start": 487.22,
+      "end": 496.26,
+      "speaker": "Speaker 1",
+      "text": "the mails were already out for the shadow orientation, so I hope the first time shadows and the even the returning shadows are have already signed up for those slots."
+    },
+    {
+      "start": 499.03,
+      "end": 499.59,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 500.23,
+      "end": 510.99,
+      "speaker": "Speaker 7",
+      "text": "Next, we have leads lead. Dipesh, over to you. Yep. Sure. So just quick update from me. So sub team leads, please ensure that you have done your sub team orientations."
+    },
+    {
+      "start": 510.99,
+      "end": 514.75,
+      "speaker": "Speaker 7",
+      "text": "Either those have been completed or they are being currently scheduled"
+    },
+    {
+      "start": 515.55,
+      "end": 517.07,
+      "speaker": "Speaker 7",
+      "text": "based on the availability."
+    },
+    {
+      "start": 517.79,
+      "end": 524.35,
+      "speaker": "Speaker 7",
+      "text": "And as Prabhupvio mentioned earlier that I think Fred has sent the invites for the orientation for the release team. So"
+    },
+    {
+      "start": 525.85,
+      "end": 528.09,
+      "speaker": "Speaker 7",
+      "text": "all the shadows who are first time"
+    },
+    {
+      "start": 528.57,
+      "end": 532.8,
+      "speaker": "Speaker 7",
+      "text": "release team shadows, please make sure that you attend those"
+    },
+    {
+      "start": 533.53,
+      "end": 539.68,
+      "speaker": "Speaker 7",
+      "text": "orientation session. I think Fred has suggested two times. I think one was yesterday, and the other one is scheduled on Friday."
+    },
+    {
+      "start": 540.28,
+      "end": 548.68,
+      "speaker": "Speaker 7",
+      "text": "Yes. If for any reason you can't make those two timings, please reach out to either Fred or Kat, and they can work async to"
+    },
+    {
+      "start": 549.96,
+      "end": 552.04,
+      "speaker": "Speaker 7",
+      "text": "help you how to"
+    },
+    {
+      "start": 552.54,
+      "end": 553.9,
+      "speaker": "Speaker 7",
+      "text": "get you onboarded"
+    },
+    {
+      "start": 554.14,
+      "end": 561.9,
+      "speaker": "Speaker 7",
+      "text": "with those sessions. So please do that on priority. So for the items for today, we have two deadlines or two milestone for the delete."
+    },
+    {
+      "start": 562.38,
+      "end": 567.1,
+      "speaker": "Speaker 7",
+      "text": "First is the PRR fees deadline, which I think is in less than five hours from now."
+    },
+    {
+      "start": 567.78,
+      "end": 573.7,
+      "speaker": "Speaker 7",
+      "text": "I see the enhancement team is working on it, so thanks for all the work that has gone into that."
+    },
+    {
+      "start": 574.5,
+      "end": 581.78,
+      "speaker": "Speaker 7",
+      "text": "And then we have the alpha one. So I think the release signal team has given green, and as Ryota mentioned, later today, we'll start the"
+    },
+    {
+      "start": 582.96,
+      "end": 589.13,
+      "speaker": "Speaker 7",
+      "text": "But so nothing exciting from me. Just looking on to those two deadlines and to help those teams."
+    },
+    {
+      "start": 589.52,
+      "end": 591.29,
+      "speaker": "Speaker 7",
+      "text": "But in terms of update from me."
+    },
+    {
+      "start": 594.94,
+      "end": 595.74,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 596.38,
+      "end": 599.02,
+      "speaker": "Speaker 1",
+      "text": "So any comments or questions for the page?"
+    },
+    {
+      "start": 602.54,
+      "end": 603.82,
+      "speaker": "Speaker 1",
+      "text": "K. Thank you."
+    },
+    {
+      "start": 604.22,
+      "end": 611.23,
+      "speaker": "Speaker 1",
+      "text": "Next, we have six scalability. So I don't see any status here, but later in the cycle, we'll hopefully get those updates from them."
+    },
+    {
+      "start": 611.87,
+      "end": 612.58,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 613.46,
+      "end": 616.35,
+      "speaker": "Speaker 1",
+      "text": "Do we do we have any final discussions,"
+    },
+    {
+      "start": 616.51,
+      "end": 620.02,
+      "speaker": "Speaker 1",
+      "text": "items, and you would like to bring out anything before I stop the recording?"
+    },
+    {
+      "start": 624.32,
+      "end": 625.12,
+      "speaker": "Speaker 1",
+      "text": "K."
+    },
+    {
+      "start": 625.52,
+      "end": 627.44,
+      "speaker": "Speaker 1",
+      "text": "Not, let me just"
+    },
+    {
+      "start": 629.12,
+      "end": 630.56,
+      "speaker": "Speaker 1",
+      "text": "stop the recording."
+    },
+    {
+      "start": 634,
+      "end": 638,
+      "speaker": "Speaker 1",
+      "text": "Okay. Thank you, and goodbye to everyone watching on YouTube. So"
+    }
+  ],
+  "summaries": {
+    "general": "## Overview\nKubernetes SIG Release meeting on June 10, week 4 of the release cycle. Two deadlines land today: the PRR freeze and the alpha.1 cut. Shadows have been onboarded and every sub-team reported green.\n\n## Sub-team status\n- **Enhancements — onboarding done.** 98 KEPs tracked (50 alpha, 29 beta, 18 stable, 1 deprecation), excluding removed/deferred. 12 are at risk for the PRR freeze; the team is reaching out to owners. PRR freeze took effect at 05:30 IST, followed by a \"freeze party\".\n- **Release signal — green.** A flake blocking the release was fixed and merged; no broken issues or PRs, and no critical items.\n- **Docs — green.** Shadow onboarding complete, weekly branching PR merged. Will prep alpha.1 release notes and, after PRR freeze, distribute KEPs to shadows for placeholder PRs. Open issue: CLA/sign-off check failing on merges into the dev branch despite signed CLAs.\n- **Comms — green.** Shadow access PRs merged; comms opt-in assignees updated. Shadow orientation held June 4–5. A blog on cgroup v1 removal will be in the mid-cycle blog plus an off-cycle feature blog.\n- **Release branch management.** Signal green, alpha cut planned later today, possibly waiting for Americas/EMEA folks to be ready.\n\n## Leads\nSub-team leads should finish sub-team orientations; first-time shadows must attend the release-team orientation (two slots, one already passed and one Friday).\n\n## Next milestones\nPRR freeze (hours away) and alpha.1 cut today.",
+    "sales": "## Deal-style read-out (community meeting, adapted)\n**Stakeholders:** meeting host, release lead, and leads for enhancements, signal, docs, comms and branch management.\n\n**Health:** All teams green. 98 KEPs tracked; 12 at risk for the PRR freeze.\n\n**Risks / objections**\n- 12 KEPs at risk for PRR freeze.\n- CLA sign-off check misfiring on the dev branch for website PRs.\n- Alpha cut timing depends on Americas/EMEA availability.\n- Some first-time shadows may miss orientation.\n\n**Commitments / next steps**\n- Enhancements: keep chasing at-risk KEP owners before the freeze.\n- Branch management: cut alpha.1 later today.\n- Docs: follow the CLA issue; prep alpha.1 release notes.\n- Comms: publish the cgroup v1 removal blog.\n\n**Forecast:** strong. Signal is green, so alpha.1 can proceed.",
+    "standup": "## Yesterday / last week\n- Shadow onboarding completed across teams; access PRs merged.\n- Weekly branching PR merged.\n- Fixed the flake that was blocking the release; signal back to green.\n- Comms discussed the cgroup v1 blog with SIG Docs.\n\n## Today\n- PRR freeze at 05:30 IST.\n- Alpha.1 cut later today.\n- Docs to start alpha.1 release notes.\n\n## Blockers\n- 12 KEPs at risk for PRR freeze.\n- CLA/sign-off check failing on dev-branch merges (issue opened, being followed up)."
+  },
+  "actionItems": [
+    {
+      "text": "Keep reaching out to owners of the 12 KEPs at risk before the PRR freeze",
+      "owner": "Enhancements team",
+      "timestamp": 133
+    },
+    {
+      "text": "Share the PRR freeze party link with the enhancements group",
+      "owner": "Enhancements team",
+      "timestamp": 161
+    },
+    {
+      "text": "Prepare release notes for alpha.1 once it is out",
+      "owner": "Docs team",
+      "timestamp": 270
+    },
+    {
+      "text": "Distribute KEPs to shadows after the PRR freeze and reach out for placeholder PRs",
+      "owner": "Docs team",
+      "timestamp": 285
+    },
+    {
+      "text": "Follow up on the CLA/sign-off issue affecting merges to the dev branch",
+      "owner": "Docs team",
+      "timestamp": 302
+    },
+    {
+      "text": "Publish cgroup v1 removal content in the mid-cycle blog and an off-cycle feature blog",
+      "owner": "Comms team",
+      "timestamp": 403
+    },
+    {
+      "text": "Cut alpha.1 later today, once Americas/EMEA folks are ready",
+      "owner": "Release branch management",
+      "timestamp": 449
+    },
+    {
+      "text": "Complete sub-team orientations (or schedule them)",
+      "owner": "Sub-team leads",
+      "timestamp": 500
+    },
+    {
+      "text": "First-time shadows to attend release-team orientation (or contact the subproject leads for async onboarding)",
+      "owner": "First-time shadows",
+      "timestamp": 525
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Welcome & code of conduct",
+      "start": 0
+    },
+    {
+      "title": "Enhancements & PRR freeze",
+      "start": 69
+    },
+    {
+      "title": "Release signal (green)",
+      "start": 192
+    },
+    {
+      "title": "Docs team & CLA issue",
+      "start": 249
+    },
+    {
+      "title": "Comms team",
+      "start": 354
+    },
+    {
+      "title": "Release branch management & alpha cut",
+      "start": 437
+    },
+    {
+      "title": "Subproject leads",
+      "start": 476
+    },
+    {
+      "title": "Release lead update & deadlines",
+      "start": 500
+    },
+    {
+      "title": "Wrap-up",
+      "start": 604
+    }
+  ]
+}

@@ -1,0 +1,1143 @@
+{
+  "id": "mQgvhX_hPqU",
+  "title": "Kubernetes SIG Release — 2026-08-10",
+  "youtubeId": "mQgvhX_hPqU",
+  "date": "2026-08-10",
+  "duration": 846,
+  "speakers": [
+    "Speaker 1",
+    "Speaker 2",
+    "Speaker 3",
+    "Speaker 4",
+    "Speaker 5",
+    "Speaker 6"
+  ],
+  "segments": [
+    {
+      "start": 3.68,
+      "end": 5.6,
+      "speaker": "Speaker 1",
+      "text": "Hello, everyone. I am Syanchaudhry,"
+    },
+    {
+      "start": 5.6,
+      "end": 12.72,
+      "speaker": "Speaker 1",
+      "text": "and I'm the release lead shadow for the, v 30 one thirty seven, release cycle, and I would be the host for"
+    },
+    {
+      "start": 13.14,
+      "end": 14.99,
+      "speaker": "Speaker 1",
+      "text": "the today's America's"
+    },
+    {
+      "start": 14.99,
+      "end": 16.9,
+      "speaker": "Speaker 1",
+      "text": "EMEA burn down meeting."
+    },
+    {
+      "start": 17.15,
+      "end": 23.22,
+      "speaker": "Speaker 1",
+      "text": "We are currently in week 13 of the release, and today is Monday, August 10."
+    },
+    {
+      "start": 23.79,
+      "end": 33.99,
+      "speaker": "Speaker 1",
+      "text": "Before we start off with the meeting, please be aware that this is a Kubernetes community meeting which falls under the Kubernetes code of conduct and which can be summarized to be excellent to each other."
+    },
+    {
+      "start": 34.87,
+      "end": 41.35,
+      "speaker": "Speaker 1",
+      "text": "And the meeting is recorded and will be publicly posted to YouTube, so please be mindful of what you say is being recorded."
+    },
+    {
+      "start": 42.14,
+      "end": 47.25,
+      "speaker": "Speaker 1",
+      "text": "And with that, let's all move on to the open discussion items."
+    },
+    {
+      "start": 51.57,
+      "end": 58.6,
+      "speaker": "Speaker 1",
+      "text": "I don't see anything that has been added to the open discussion, but do you folks have anything that you want to discuss?"
+    },
+    {
+      "start": 64.28,
+      "end": 69.64,
+      "speaker": "Speaker 1",
+      "text": "I take that as a no. With that, I think we can move on to the subteam"
+    },
+    {
+      "start": 70.04,
+      "end": 70.6,
+      "speaker": "Speaker 1",
+      "text": "updates"
+    },
+    {
+      "start": 71.22,
+      "end": 73.06,
+      "speaker": "Speaker 1",
+      "text": "starting with enhancements."
+    },
+    {
+      "start": 73.06,
+      "end": 74.81,
+      "speaker": "Speaker 1",
+      "text": "Karim, are you there on the call?"
+    },
+    {
+      "start": 75.53,
+      "end": 77.77,
+      "speaker": "Speaker 2",
+      "text": "Yes. Can you hear me? Yes."
+    },
+    {
+      "start": 78.17,
+      "end": 80.33,
+      "speaker": "Speaker 2",
+      "text": "Okay. Our current status is green."
+    },
+    {
+      "start": 80.9,
+      "end": 88.17,
+      "speaker": "Speaker 2",
+      "text": "Currently, we are tracking 67 caps on the board, 26 in alpha, 23 in beta, 17 in the stream, and one in duplication."
+    },
+    {
+      "start": 89.21,
+      "end": 91.37,
+      "speaker": "Speaker 2",
+      "text": "All caps are tracked for code threes."
+    },
+    {
+      "start": 91.61,
+      "end": 95.29,
+      "speaker": "Speaker 2",
+      "text": "Three has been deferred, and 37 has been removed from the milestone."
+    },
+    {
+      "start": 95.45,
+      "end": 99.53,
+      "speaker": "Speaker 2",
+      "text": "Currently, there is no specific updates in our end. Thank you."
+    },
+    {
+      "start": 100.9,
+      "end": 102.42,
+      "speaker": "Speaker 1",
+      "text": "Thanks a lot, Karim."
+    },
+    {
+      "start": 104.17,
+      "end": 106.81,
+      "speaker": "Speaker 1",
+      "text": "Do we do we have any questions for the enhancements"
+    },
+    {
+      "start": 106.82,
+      "end": 107.53,
+      "speaker": "Speaker 1",
+      "text": "team?"
+    },
+    {
+      "start": 108.26,
+      "end": 110.81,
+      "speaker": "Speaker 3",
+      "text": "Not a question. Kind of a request. So"
+    },
+    {
+      "start": 111.3,
+      "end": 112.9,
+      "speaker": "Speaker 3",
+      "text": "enhancement teams, I know they"
+    },
+    {
+      "start": 113.14,
+      "end": 117.38,
+      "speaker": "Speaker 3",
+      "text": "that we are less on work on the enhancement side. So please start looking at"
+    },
+    {
+      "start": 118.26,
+      "end": 125.78,
+      "speaker": "Speaker 3",
+      "text": "some handbook updates. I think everyone might have seen message from Kat on the kids tab in Google Group that the"
+    },
+    {
+      "start": 126.67,
+      "end": 135.32,
+      "speaker": "Speaker 3",
+      "text": "time between the releases is going to be less. So we are not going to have time to do our handbook updates because the next release is going to start immediately the week of Thursday."
+    },
+    {
+      "start": 136.51,
+      "end": 138.11,
+      "speaker": "Speaker 3",
+      "text": "Please use this time to"
+    },
+    {
+      "start": 138.69,
+      "end": 141.89,
+      "speaker": "Speaker 3",
+      "text": "see if you can raise some PRs for some handbook update"
+    },
+    {
+      "start": 142.37,
+      "end": 147.17,
+      "speaker": "Speaker 3",
+      "text": "is the first request. And the second request is now that the release is just back to back."
+    },
+    {
+      "start": 147.49,
+      "end": 154.61,
+      "speaker": "Speaker 3",
+      "text": "So it is very important that we do the cleanup step that was recently added to the enhancement team's activity during the"
+    },
+    {
+      "start": 155.31,
+      "end": 161.71,
+      "speaker": "Speaker 3",
+      "text": "last few weeks of the release. So please go through the handbook regarding the steps that are needed."
+    },
+    {
+      "start": 162.51,
+      "end": 166.91,
+      "speaker": "Speaker 3",
+      "text": "I would expect the cleanup activities to start from, I think, next week."
+    },
+    {
+      "start": 167.95,
+      "end": 175.47,
+      "speaker": "Speaker 3",
+      "text": "So that will help us removing all the labels from the enhancement issues that we have so the next enhancement lead can set up the board"
+    },
+    {
+      "start": 175.95,
+      "end": 180.75,
+      "speaker": "Speaker 3",
+      "text": "and the sync is out quickly. So those are the two requests from my side to the enhancement."
+    },
+    {
+      "start": 182.57,
+      "end": 184.01,
+      "speaker": "Speaker 3",
+      "text": "That's it for me."
+    },
+    {
+      "start": 184.73,
+      "end": 186.25,
+      "speaker": "Speaker 1",
+      "text": "Thanks a lot, Dipesh."
+    },
+    {
+      "start": 188.25,
+      "end": 191.77,
+      "speaker": "Speaker 1",
+      "text": "Would anyone else who wants to add feedback or any comments?"
+    },
+    {
+      "start": 195.04,
+      "end": 200.08,
+      "speaker": "Speaker 1",
+      "text": "If not, then I'll move on to the release signal team. Adil, are you there on the call?"
+    },
+    {
+      "start": 206.8,
+      "end": 210.48,
+      "speaker": "Speaker 1",
+      "text": "Is anyone else from the release signal team who can take up the updates?"
+    },
+    {
+      "start": 215.94,
+      "end": 221.07,
+      "speaker": "Speaker 1",
+      "text": "I don't think so. So I'll I'll go with with their updates. So the current status is red."
+    },
+    {
+      "start": 221.31,
+      "end": 223.55,
+      "speaker": "Speaker 1",
+      "text": "They have been failing on the"
+    },
+    {
+      "start": 223.86,
+      "end": 226.19,
+      "speaker": "Speaker 1",
+      "text": "GC one thirty seven scale performance 100,"
+    },
+    {
+      "start": 227.28,
+      "end": 232.08,
+      "speaker": "Speaker 1",
+      "text": "and they have been flaky on the GC device plug in GPU master."
+    },
+    {
+      "start": 232.16,
+      "end": 233.12,
+      "speaker": "Speaker 1",
+      "text": "So"
+    },
+    {
+      "start": 233.92,
+      "end": 241.68,
+      "speaker": "Speaker 1",
+      "text": "these are the two failing jobs, and they are probably looking into it. And they have also added the Slack thread and the issue on the flaky one as well."
+    },
+    {
+      "start": 242.65,
+      "end": 245.85,
+      "speaker": "Speaker 1",
+      "text": "Other than that, I don't see anything else."
+    },
+    {
+      "start": 246.57,
+      "end": 248.97,
+      "speaker": "Speaker 1",
+      "text": "So I'll move on to the"
+    },
+    {
+      "start": 249.61,
+      "end": 250.65,
+      "speaker": "Speaker 1",
+      "text": "docs team."
+    },
+    {
+      "start": 251.13,
+      "end": 252.81,
+      "speaker": "Speaker 1",
+      "text": "Destiny, are you there on the call?"
+    },
+    {
+      "start": 258.53,
+      "end": 261.33,
+      "speaker": "Speaker 4",
+      "text": "No. This one is not. Maybe I'll Sure."
+    },
+    {
+      "start": 263.49,
+      "end": 263.81,
+      "speaker": "Speaker 1",
+      "text": "Thanks,"
+    },
+    {
+      "start": 266.21,
+      "end": 269.17,
+      "speaker": "Speaker 4",
+      "text": "only we can stop doing last. Current status is green."
+    },
+    {
+      "start": 269.98,
+      "end": 274.22,
+      "speaker": "Speaker 4",
+      "text": "Last week, this was week 12. Weekly in transit PR was also announced."
+    },
+    {
+      "start": 274.7,
+      "end": 277.26,
+      "speaker": "Speaker 4",
+      "text": "For the release notes, r c zero,"
+    },
+    {
+      "start": 277.98,
+      "end": 282.21,
+      "speaker": "Speaker 4",
+      "text": "if PR is up, payments under review from within the team"
+    },
+    {
+      "start": 282.66,
+      "end": 293.38,
+      "speaker": "Speaker 4",
+      "text": "From the doc phase point of view, so we have one tab, which is which has filed for the exception, and we we look forward for that. From the important dates of point of view, so"
+    },
+    {
+      "start": 294.18,
+      "end": 296.34,
+      "speaker": "Speaker 4",
+      "text": "r c one release for"
+    },
+    {
+      "start": 296.81,
+      "end": 303.77,
+      "speaker": "Speaker 4",
+      "text": "r c one is scheduled for August 19, and docs team doc docs lead will be finalizing the release notes"
+    },
+    {
+      "start": 304.16,
+      "end": 304.96,
+      "speaker": "Speaker 4",
+      "text": "based"
+    },
+    {
+      "start": 304.96,
+      "end": 305.61,
+      "speaker": "Speaker 4",
+      "text": "on that."
+    },
+    {
+      "start": 306.4,
+      "end": 307.69,
+      "speaker": "Speaker 4",
+      "text": "And from the"
+    },
+    {
+      "start": 308.01,
+      "end": 316.54,
+      "speaker": "Speaker 4",
+      "text": "total number point of view, so we are tracking 67 k the second, out of which 66 docs I mean, caps are tracked for the doc fees."
+    },
+    {
+      "start": 316.86,
+      "end": 324.14,
+      "speaker": "Speaker 4",
+      "text": "And 59 from the PR point of view, so 59 PRs are completely merged. Our money is ready for review,"
+    },
+    {
+      "start": 324.3,
+      "end": 328.16,
+      "speaker": "Speaker 4",
+      "text": "which gives the picture for one minute tablet is five for exception,"
+    },
+    {
+      "start": 328.24,
+      "end": 332,
+      "speaker": "Speaker 4",
+      "text": "and seven does not take any docs here. That's all. Thanks,"
+    },
+    {
+      "start": 334.63,
+      "end": 338.24,
+      "speaker": "Speaker 1",
+      "text": "Araf. Do we have any questions or feedback for the docs team?"
+    },
+    {
+      "start": 344.38,
+      "end": 348.3,
+      "speaker": "Speaker 1",
+      "text": "Cool. So I'll move on to the next sub team. So it's comms."
+    },
+    {
+      "start": 348.7,
+      "end": 350.38,
+      "speaker": "Speaker 1",
+      "text": "I see Arsh."
+    },
+    {
+      "start": 350.54,
+      "end": 352.86,
+      "speaker": "Speaker 1",
+      "text": "Arsh, are you there on the call? Yep."
+    },
+    {
+      "start": 353.6,
+      "end": 358.64,
+      "speaker": "Speaker 5",
+      "text": "Hey, everyone. This is Arsh from the comms team. So our current status is yellow."
+    },
+    {
+      "start": 358.88,
+      "end": 366.35,
+      "speaker": "Speaker 5",
+      "text": "We are continuing to work on the release announcement blog post. If you wanna check that out, like, it's not ready, but it's in progress."
+    },
+    {
+      "start": 366.59,
+      "end": 368.51,
+      "speaker": "Speaker 5",
+      "text": "You can click on the link in this doc."
+    },
+    {
+      "start": 368.91,
+      "end": 377.31,
+      "speaker": "Speaker 5",
+      "text": "Also, Swati has reached out to the CNCF webinar team, and, she'll be reaching out to the CNCF press about the highlighted caps and"
+    },
+    {
+      "start": 377.71,
+      "end": 380.51,
+      "speaker": "Speaker 5",
+      "text": "would share, like, a blog by the end of this week."
+    },
+    {
+      "start": 381.53,
+      "end": 383.85,
+      "speaker": "Speaker 5",
+      "text": "The current status of feature"
+    },
+    {
+      "start": 384.89,
+      "end": 386.89,
+      "speaker": "Speaker 5",
+      "text": "blogs merged are,"
+    },
+    {
+      "start": 387.37,
+      "end": 391.53,
+      "speaker": "Speaker 5",
+      "text": "zero, but two of them are in progress, and six are ready for review."
+    },
+    {
+      "start": 391.85,
+      "end": 394.57,
+      "speaker": "Speaker 5",
+      "text": "So, hopefully, that merge number will increase soon."
+    },
+    {
+      "start": 395.22,
+      "end": 398.42,
+      "speaker": "Speaker 5",
+      "text": "And the feature blog opt ins by stage,"
+    },
+    {
+      "start": 398.74,
+      "end": 402.42,
+      "speaker": "Speaker 5",
+      "text": "total 18 blogs, but two seg storage blogs will be combined,"
+    },
+    {
+      "start": 402.74,
+      "end": 406.26,
+      "speaker": "Speaker 5",
+      "text": "which leaves us at, like, 12 alpha blogs,"
+    },
+    {
+      "start": 406.42,
+      "end": 409.46,
+      "speaker": "Speaker 5",
+      "text": "11 beta blogs, and five blogs about stable features."
+    },
+    {
+      "start": 412.89,
+      "end": 414.49,
+      "speaker": "Speaker 1",
+      "text": "Okay. Thanks,"
+    },
+    {
+      "start": 414.49,
+      "end": 415.13,
+      "speaker": "Speaker 1",
+      "text": "Harsh."
+    },
+    {
+      "start": 416.41,
+      "end": 419.53,
+      "speaker": "Speaker 1",
+      "text": "So do we have any questions or feedback for the comps team?"
+    },
+    {
+      "start": 424.45,
+      "end": 429.17,
+      "speaker": "Speaker 1",
+      "text": "I'll take that as as a no and move on to the release branch management."
+    },
+    {
+      "start": 429.25,
+      "end": 430.05,
+      "speaker": "Speaker 1",
+      "text": "I"
+    },
+    {
+      "start": 430.13,
+      "end": 434.53,
+      "speaker": "Speaker 1",
+      "text": "don't see Augustine on the call, though. Jenny, do you want to take those updates?"
+    },
+    {
+      "start": 435.34,
+      "end": 438.54,
+      "speaker": "Speaker 6",
+      "text": "Yeah. I can give it. Okay. So r c zero,"
+    },
+    {
+      "start": 438.62,
+      "end": 439.82,
+      "speaker": "Speaker 6",
+      "text": "we cut last week."
+    },
+    {
+      "start": 441.1,
+      "end": 446.7,
+      "speaker": "Speaker 6",
+      "text": "Right now, we're just wrapping up post branch creation tasks, which you can track in the linked issue here."
+    },
+    {
+      "start": 447.1,
+      "end": 452,
+      "speaker": "Speaker 6",
+      "text": "And then there's new dashboards that were sent out to the release signal team."
+    },
+    {
+      "start": 453.12,
+      "end": 454.24,
+      "speaker": "Speaker 6",
+      "text": "That's about it."
+    },
+    {
+      "start": 455.84,
+      "end": 459.12,
+      "speaker": "Speaker 1",
+      "text": "Thanks, Jenny. Any questions for the release branch management team?"
+    },
+    {
+      "start": 462.65,
+      "end": 468.57,
+      "speaker": "Speaker 1",
+      "text": "Okay. So moving on to the subproject leads. I don't see either Cat or Fred"
+    },
+    {
+      "start": 469.05,
+      "end": 470.17,
+      "speaker": "Speaker 1",
+      "text": "on the call."
+    },
+    {
+      "start": 471.21,
+      "end": 483.19,
+      "speaker": "Speaker 1",
+      "text": "I think probably the major thing right now is to look for the succession. So all the leads, I'm not sure if the discussion started or not, but, yeah, please start thinking about your succession"
+    },
+    {
+      "start": 483.35,
+      "end": 484.23,
+      "speaker": "Speaker 1",
+      "text": "and"
+    },
+    {
+      "start": 484.31,
+      "end": 485.43,
+      "speaker": "Speaker 1",
+      "text": "discuss with"
+    },
+    {
+      "start": 485.91,
+      "end": 488.15,
+      "speaker": "Speaker 1",
+      "text": "the release lead, Dipesh and"
+    },
+    {
+      "start": 488.79,
+      "end": 491.75,
+      "speaker": "Speaker 1",
+      "text": "Kat and Fred on any questions that you have."
+    },
+    {
+      "start": 492.64,
+      "end": 494.56,
+      "speaker": "Speaker 1",
+      "text": "Please reach out to them. And"
+    },
+    {
+      "start": 495.36,
+      "end": 506.56,
+      "speaker": "Speaker 1",
+      "text": "as the release is soon to be started after after the this one ends, so, this might need some urgency. So, yeah, please look into it. And with that, I'll move on to the release lead, Dipesh."
+    },
+    {
+      "start": 507.68,
+      "end": 508.64,
+      "speaker": "Speaker 3",
+      "text": "Thanks,"
+    },
+    {
+      "start": 508.64,
+      "end": 519.84,
+      "speaker": "Speaker 3",
+      "text": "Sam. So first of all, thanks everyone for last week. I think we had two deadlines, doc freeze and r c zero. So well done, I think. The docs team and the release branch management, especially, I think, Augustine, I think."
+    },
+    {
+      "start": 520.61,
+      "end": 523.49,
+      "speaker": "Speaker 3",
+      "text": "Once the release was cut, few of the post"
+    },
+    {
+      "start": 524.13,
+      "end": 527.57,
+      "speaker": "Speaker 3",
+      "text": "RC build tasks were left, and I think she was working"
+    },
+    {
+      "start": 528.37,
+      "end": 535.08,
+      "speaker": "Speaker 3",
+      "text": "over the weekend to get those in. I think we now have the boards for one dot three seven. There are few more tasks that are left,"
+    },
+    {
+      "start": 535.98,
+      "end": 538.94,
+      "speaker": "Speaker 3",
+      "text": "which I think needs input from various leads,"
+    },
+    {
+      "start": 538.94,
+      "end": 542.94,
+      "speaker": "Speaker 3",
+      "text": "and they'll have been the issue have been created, and they have been pinged."
+    },
+    {
+      "start": 543.26,
+      "end": 548.22,
+      "speaker": "Speaker 3",
+      "text": "Hopefully, we'll get some resolution either way end of today or tomorrow, and we should be good on that."
+    },
+    {
+      "start": 549.58,
+      "end": 553.42,
+      "speaker": "Speaker 3",
+      "text": "For docs, Frieda, I think total, we had four caps"
+    },
+    {
+      "start": 553.58,
+      "end": 557.18,
+      "speaker": "Speaker 3",
+      "text": "that did not make the deadline out of which three. I think"
+    },
+    {
+      "start": 557.58,
+      "end": 562.14,
+      "speaker": "Speaker 3",
+      "text": "we received the exception request last week, and those have been addressed. And over the weekend,"
+    },
+    {
+      "start": 562.91,
+      "end": 572.27,
+      "speaker": "Speaker 3",
+      "text": "the sick dog's leadership was working to get them reviewed and merged in. So a special shout out and thanks to sick dog leadership, Devia Cat, and"
+    },
+    {
+      "start": 573.07,
+      "end": 580.05,
+      "speaker": "Speaker 3",
+      "text": "Natalie were working over the weekend to get those PRs merged in. I think there was one cap left, so I nursed them in the morning. So"
+    },
+    {
+      "start": 580.46,
+      "end": 584.78,
+      "speaker": "Speaker 3",
+      "text": "we have one more exception request that is currently being evaluated. So once"
+    },
+    {
+      "start": 585.65,
+      "end": 591.82,
+      "speaker": "Speaker 3",
+      "text": "that has been either approved or rejected, then we'll have the total number of caps that we have tracked for this release."
+    },
+    {
+      "start": 592.9,
+      "end": 595.06,
+      "speaker": "Speaker 3",
+      "text": "And as Swati mentioned, currently,"
+    },
+    {
+      "start": 595.3,
+      "end": 597.46,
+      "speaker": "Speaker 3",
+      "text": "me and Swati are collecting few"
+    },
+    {
+      "start": 598.1,
+      "end": 602.1,
+      "speaker": "Speaker 3",
+      "text": "items that we need to go back to the Linux Foundation representative"
+    },
+    {
+      "start": 602.1,
+      "end": 606.26,
+      "speaker": "Speaker 3",
+      "text": "in scheduling the in scheduling my press interviews, which involves"
+    },
+    {
+      "start": 606.71,
+      "end": 612.47,
+      "speaker": "Speaker 3",
+      "text": "two, three release highlights that they need, the link to the announcement draft PR,"
+    },
+    {
+      "start": 612.95,
+      "end": 616.71,
+      "speaker": "Speaker 3",
+      "text": "and the release team and logo, which I think they will have to wait"
+    },
+    {
+      "start": 617.11,
+      "end": 620.31,
+      "speaker": "Speaker 3",
+      "text": "till the end of this week to get those in. So I'll"
+    },
+    {
+      "start": 620.89,
+      "end": 635.77,
+      "speaker": "Speaker 3",
+      "text": "get back to them with all the information I have till now and request them an extended deadline towards the end of this week. So the main milestone for this week is to get this release announcement blog that is currently being drafted into Google Note into"
+    },
+    {
+      "start": 636.52,
+      "end": 642.77,
+      "speaker": "Speaker 3",
+      "text": "GitHub PR as a draft content so that all the site release leads and site dog leads can review it."
+    },
+    {
+      "start": 643.17,
+      "end": 648.77,
+      "speaker": "Speaker 3",
+      "text": "So the sooner we get it out of the docs into the GitHub PR, I think it will be better. So"
+    },
+    {
+      "start": 649.32,
+      "end": 650.52,
+      "speaker": "Speaker 3",
+      "text": "because historically,"
+    },
+    {
+      "start": 650.52,
+      "end": 657.48,
+      "speaker": "Speaker 3",
+      "text": "I think we got a lot of reviews on release announcement, and it tends to go down to the wire to the last day."
+    },
+    {
+      "start": 658.28,
+      "end": 667.46,
+      "speaker": "Speaker 3",
+      "text": "And I'm hoping we can avoid that situation, this release, and we can get it more sometimes next week. And the last week is just scheduling that block, but let's see how things goes."
+    },
+    {
+      "start": 668.26,
+      "end": 674.5,
+      "speaker": "Speaker 3",
+      "text": "For next week, I think we have only one deadline, which is the r c one cut, and that will be subject to the"
+    },
+    {
+      "start": 674.98,
+      "end": 680.43,
+      "speaker": "Speaker 3",
+      "text": "release signals and all the new tests for one dot three seven that have been added. I"
+    },
+    {
+      "start": 681.07,
+      "end": 685.39,
+      "speaker": "Speaker 3",
+      "text": "see release signal team is already on top of all the flakes and failures. So"
+    },
+    {
+      "start": 686.27,
+      "end": 689.07,
+      "speaker": "Speaker 3",
+      "text": "thanks for following up on that. And, yeah,"
+    },
+    {
+      "start": 689.39,
+      "end": 697.02,
+      "speaker": "Speaker 3",
+      "text": "please feel free to tag me once you if you don't hear from the SIG leads regarding any of the failures so I can nudge them and hopefully,"
+    },
+    {
+      "start": 697.74,
+      "end": 699.34,
+      "speaker": "Speaker 3",
+      "text": "we have a green signal"
+    },
+    {
+      "start": 699.42,
+      "end": 701.42,
+      "speaker": "Speaker 3",
+      "text": "during the release"
+    },
+    {
+      "start": 701.42,
+      "end": 702.14,
+      "speaker": "Speaker 3",
+      "text": "cut."
+    },
+    {
+      "start": 703.1,
+      "end": 711.35,
+      "speaker": "Speaker 3",
+      "text": "And for the reminder and request, just like I said, the enhancement team, this is a request for other sub teams also that now we have a reduced"
+    },
+    {
+      "start": 711.99,
+      "end": 716.87,
+      "speaker": "Speaker 3",
+      "text": "release schedule that we'll have less time between the releases. So if there are list of changes"
+    },
+    {
+      "start": 717.43,
+      "end": 722.47,
+      "speaker": "Speaker 3",
+      "text": "to the handbook that you were planning to do, please make a note of those. Either you"
+    },
+    {
+      "start": 723.24,
+      "end": 731.32,
+      "speaker": "Speaker 3",
+      "text": "make a note of those and share it with your sub team leads or, ideally, just raise a draft PR with all the changes, and then we can review them and"
+    },
+    {
+      "start": 731.96,
+      "end": 738.28,
+      "speaker": "Speaker 3",
+      "text": "get them merged in during the early start of the next release so that we don't lose all those changes that"
+    },
+    {
+      "start": 739.69,
+      "end": 743.53,
+      "speaker": "Speaker 3",
+      "text": "in people's heads. So just one request. So please do not"
+    },
+    {
+      "start": 744.17,
+      "end": 752.73,
+      "speaker": "Speaker 3",
+      "text": "miss the handbook update because those are necessary as we go from one release to another. We need to continuously improve the documentation we have and the processes"
+    },
+    {
+      "start": 753.4,
+      "end": 754.68,
+      "speaker": "Speaker 3",
+      "text": "that we follow."
+    },
+    {
+      "start": 755.24,
+      "end": 757.8,
+      "speaker": "Speaker 3",
+      "text": "That's it in terms of update I have."
+    },
+    {
+      "start": 759.16,
+      "end": 761.56,
+      "speaker": "Speaker 1",
+      "text": "Thanks a lot, Dipesh, for adding the updates."
+    },
+    {
+      "start": 761.88,
+      "end": 764.2,
+      "speaker": "Speaker 1",
+      "text": "So do we have any questions for"
+    },
+    {
+      "start": 764.52,
+      "end": 765.16,
+      "speaker": "Speaker 1",
+      "text": "Dipesh?"
+    },
+    {
+      "start": 769.61,
+      "end": 774.41,
+      "speaker": "Speaker 1",
+      "text": "So I have one question. So one of the things that I have been eagerly waiting for, like, the,"
+    },
+    {
+      "start": 776.01,
+      "end": 779.45,
+      "speaker": "Speaker 1",
+      "text": "logo release logo. So have you been started to drafting that yet?"
+    },
+    {
+      "start": 780.97,
+      "end": 782.25,
+      "speaker": "Speaker 3",
+      "text": "Yes and no."
+    },
+    {
+      "start": 783.1,
+      "end": 791.65,
+      "speaker": "Speaker 3",
+      "text": "I think I could give the update in the next week meeting regarding the logo. So currently, it is under the process. So this being summer vacation time,"
+    },
+    {
+      "start": 791.98,
+      "end": 796.06,
+      "speaker": "Speaker 3",
+      "text": "the designer is on summer vacation, so I don't have the clear expectation"
+    },
+    {
+      "start": 796.06,
+      "end": 797.42,
+      "speaker": "Speaker 3",
+      "text": "as to when I'll get the"
+    },
+    {
+      "start": 798.24,
+      "end": 802.88,
+      "speaker": "Speaker 3",
+      "text": "logo and the team back, but it has been decided. So I've reviewed the draft. It's just"
+    },
+    {
+      "start": 803.2,
+      "end": 804.96,
+      "speaker": "Speaker 3",
+      "text": "not got the finalized"
+    },
+    {
+      "start": 804.96,
+      "end": 806.16,
+      "speaker": "Speaker 3",
+      "text": "logo back."
+    },
+    {
+      "start": 807.12,
+      "end": 810.88,
+      "speaker": "Speaker 1",
+      "text": "Okay. Yeah. That's one of the things we probably wait for each cycle."
+    },
+    {
+      "start": 811.88,
+      "end": 817.08,
+      "speaker": "Speaker 1",
+      "text": "Cool. So I think I don't see any updates from the six scalability team."
+    },
+    {
+      "start": 817.64,
+      "end": 818.2,
+      "speaker": "Speaker 1",
+      "text": "So"
+    },
+    {
+      "start": 818.84,
+      "end": 822.68,
+      "speaker": "Speaker 1",
+      "text": "with that, I think we are coming to the end of the meeting."
+    },
+    {
+      "start": 823.64,
+      "end": 829.37,
+      "speaker": "Speaker 1",
+      "text": "But before I stop the recording, is there anything that folks would like to discuss before we stop the recording?"
+    },
+    {
+      "start": 836.25,
+      "end": 841.53,
+      "speaker": "Speaker 1",
+      "text": "I take that as a no. So thank you everyone for joining from YouTube,"
+    },
+    {
+      "start": 841.77,
+      "end": 844.09,
+      "speaker": "Speaker 1",
+      "text": "and I'll stop the recording now."
+    }
+  ],
+  "summaries": {
+    "general": "## Overview\nAmericas/EMEA burndown meeting for the Kubernetes v1.37 release cycle (week 13, Monday Aug 10). Sub-teams gave status updates; the release is nearly done and the next cycle starts almost immediately, so the team is being pushed to prepare handbook changes and succession plans now.\n\n## Sub-team status\n- **Enhancements — green.** 67 KEPs tracked (26 alpha, 23 beta, 17 stable, 1 deprecation). All tracked for code freeze; a few deferred or removed from the milestone.\n- **Release signal — red.** Failing: `gce-1.37-scale-performance-100`. Flaky: `gce-device-plugin-gpu-master`. Slack thread and issue already opened.\n- **Docs — green.** 67 KEPs tracked, 66 for docs; 59 docs PRs merged. RC.1 is scheduled for Aug 19 and release notes will be finalised from it.\n- **Comms — yellow.** Release announcement blog in progress. Feature blogs: 0 merged, 2 in progress, 6 ready for review. 18 opt-ins (two storage blogs combined): 12 alpha, 11 beta, 5 stable.\n- **Release branch management.** RC.0 was cut last week; post-branch-creation tasks are being wrapped up and new dashboards went to the signal team.\n\n## Key discussion\n- **Compressed schedule:** the gap between releases is shorter, so handbook updates need to be raised as draft PRs now, not after the release.\n- **Enhancements cleanup step** (removing labels from enhancement issues) matters more this cycle and should start next week so the next lead can set up their board quickly.\n- **Succession:** subproject and sub-team leads should start succession discussions with the release lead and subproject leads urgently.\n- **Docs exceptions:** four KEPs missed the docs deadline; three exceptions were handled over the weekend, one is still being evaluated.\n- **Release logo:** designer is on summer vacation; the design is chosen but the final file is outstanding.\n\n## Next milestone\nRC.1 cut (Aug 19), contingent on green release signal.",
+    "sales": "## Deal-style read-out (community meeting, adapted)\n**Stakeholders:** release lead, release lead shadow (host), and leads for enhancements, release signal, docs, comms and branch management.\n\n**Health of the \"pipeline\" (release):**\n- 67 KEPs tracked, all good for code freeze; docs 59/66 merged.\n- Green: enhancements, docs. Yellow: comms. Red: release signal (scale-performance job failing, GPU device-plugin job flaky).\n\n**Risks / objections raised**\n- Red signal could block the RC.1 cut on Aug 19 if not fixed.\n- Back-to-back release schedule leaves no gap for handbook updates.\n- Leads are not yet lined up for succession.\n- Release announcement blog historically slips to the last day.\n- Release logo delayed by designer vacation.\n\n**Commitments / next steps**\n- Release lead to send press-interview info to the Linux Foundation and ask for an extension to end of week.\n- Move the announcement blog from Google Docs to a draft GitHub PR this week.\n- All sub-teams to raise handbook PRs; enhancements to start cleanup next week.\n\n**Forecast:** on track for RC.1 provided signal turns green.",
+    "standup": "## Yesterday / last week\n- Hit two deadlines: docs freeze and RC.0 cut.\n- Branch management worked over the weekend on post-RC.0 tasks; 1.37 boards are up.\n- SIG Docs leadership merged the exception-request PRs over the weekend.\n\n## Today / this week\n- Get the release announcement draft out of Google Docs and into a GitHub PR.\n- Follow up on the red release signal (scale-performance failure, GPU flake).\n- Send Linux Foundation the release highlights, announcement PR link and request a deadline extension.\n\n## Blockers\n- Release signal is red.\n- One docs exception request still pending.\n- Release logo waiting on designer (summer vacation).\n- Several leads have not begun succession planning."
+  },
+  "actionItems": [
+    {
+      "text": "Raise draft PRs for handbook updates before the next release starts",
+      "owner": "Enhancements team & all sub-team leads",
+      "timestamp": 118
+    },
+    {
+      "text": "Start the enhancement-issue label cleanup step from next week",
+      "owner": "Enhancements team",
+      "timestamp": 162
+    },
+    {
+      "text": "Investigate the failing scale-performance job and the flaky GPU device-plugin job",
+      "owner": "Release signal team",
+      "timestamp": 215
+    },
+    {
+      "text": "Finalise release notes from RC.1 (scheduled Aug 19)",
+      "owner": "Docs lead",
+      "timestamp": 294
+    },
+    {
+      "text": "Land the release announcement blog and share progress with the CNCF webinar/press contacts",
+      "owner": "Comms team",
+      "timestamp": 366
+    },
+    {
+      "text": "Complete remaining post-branch-creation tasks from the tracking issue",
+      "owner": "Release branch management",
+      "timestamp": 438
+    },
+    {
+      "text": "Start succession discussions with the release lead and subproject leads",
+      "owner": "All sub-team leads",
+      "timestamp": 471
+    },
+    {
+      "text": "Resolve open input needed from leads for the 1.37 boards (end of today / tomorrow)",
+      "owner": "Release lead",
+      "timestamp": 528
+    },
+    {
+      "text": "Decide on the last pending docs exception request",
+      "owner": "Release lead",
+      "timestamp": 580
+    },
+    {
+      "text": "Send release highlights, announcement PR link and logo status to the Linux Foundation and request an extended deadline",
+      "owner": "Release lead & comms",
+      "timestamp": 595
+    },
+    {
+      "text": "Move the announcement blog from Google Docs to a draft GitHub PR for SIG lead review",
+      "owner": "Release lead & comms",
+      "timestamp": 620
+    },
+    {
+      "text": "Tag the release lead if SIG leads don't respond about test failures so they can be nudged",
+      "owner": "Release signal team",
+      "timestamp": 686
+    },
+    {
+      "text": "Give an update on the release logo at next week's meeting",
+      "owner": "Release lead",
+      "timestamp": 780
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Welcome & code of conduct",
+      "start": 0
+    },
+    {
+      "title": "Enhancements update",
+      "start": 71
+    },
+    {
+      "title": "Handbook updates & cleanup request",
+      "start": 108
+    },
+    {
+      "title": "Release signal (red)",
+      "start": 195
+    },
+    {
+      "title": "Docs team",
+      "start": 249
+    },
+    {
+      "title": "Comms team & feature blogs",
+      "start": 344
+    },
+    {
+      "title": "Release branch management",
+      "start": 424
+    },
+    {
+      "title": "Subproject leads & succession",
+      "start": 462
+    },
+    {
+      "title": "Release lead update",
+      "start": 495
+    },
+    {
+      "title": "Release logo Q&A",
+      "start": 759
+    },
+    {
+      "title": "Wrap-up",
+      "start": 811
+    }
+  ]
+}
