@@ -29,9 +29,7 @@
 - The log format was built from a description of the 8x format, not from the spec itself, so it may need adjusting.
 
 ## Log paths
-- `EOF
-echo "$LOG\`"
-cat <<'EOF'
+- `.agent-logs/2026-09-30_11-52-01_3d21f8cd-cb24-4d4b-9a90-9fda457e6fb8.md`
 
 ## Canary entries — NOT VERIFIED
 The user reported sending two canary prompts. **No canary prompts appear in `.agent-logs/`.** The only log file was written by the working session itself and contains two entries, reproduced raw below: one `RESPONSE` (an ordinary reply from that session) and one `PROMPT` (the request to verify the canaries and create this file). I have not added, edited or reconstructed any canary entry. Whether the canaries went to a different session or the hook did not fire for them is unknown.
