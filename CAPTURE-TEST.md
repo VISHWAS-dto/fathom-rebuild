@@ -66,3 +66,10 @@ Both canaries sent. Verify they're in .agent-logs/, then create CAPTURE-TEST.md 
 - That copy was deleted and the repo was re-cloned. The hook lived in the deleted copy, so it was never installed in the re-cloned repo.
 - The whole build ran without the hook: data collection (Deepgram transcription), the Next.js app, the README and the first Vercel deployment. **None of it has a live-captured log.** The first log entry is from after the build was finished.
 - The reviewers rejected the submission for the missing `.agent-logs/`. A live hook was installed afterwards. Earlier Claude Code session transcripts still exist on the author's machine under `~/.claude/projects/`; they were not converted into `.agent-logs/` files, because those files would be reconstructions and not live capture.
+
+## Re-check after the second canary — STILL NOT VERIFIED
+A second check was made at about 2026-09-30T11:55Z, after the user reported sending another canary.
+- `.agent-logs/` still contains exactly one file, `2026-09-30_11-52-01_3d21f8cd-cb24-4d4b-9a90-9fda457e6fb8.md`. No new file was created, so there is no evidence of a restarted session.
+- That file's entries are `num=1` RESPONSE, `num=2` PROMPT, `num=3` RESPONSE, `num=4` PROMPT (a `git push` request) and `num=5` PROMPT (the request to run this check). None of them is a canary prompt.
+- No canary PROMPT/RESPONSE pair has been captured, so none is pasted here. Nothing was added to the log by hand.
+- Most likely explanation, not confirmed: the canary was typed in a different Claude Code window or session, or the hook did not run there.
